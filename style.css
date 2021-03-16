@@ -31,5 +31,172 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Lora', serif;
+  color:#242424;
 }
 
+h1,h2,h3{
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  line-height: 1.25;
+  color: #3e606b;
+}
+h1{
+  font-size: 52px;
+  font-style: normal;
+  margin-bottom: 40px;
+  color:whitesmoke;
+}
+
+h2{
+  font-size: 36px;
+}
+h3{
+  font-size: 18px;
+}
+
+#logo {
+  max-width: 170px;
+  margin: 30px 0;
+}
+
+#hlavicka{
+  padding:0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+}
+
+.menu li{
+  margin: 0 5px;
+}
+
+.vyber {
+  padding:10px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #242424;
+}
+
+.vyber:hover,
+.vyber:active {
+  color: whitesmoke;
+  background-color: #f195b2;
+}
+
+.sekce{
+  background-color: white;
+}
+
+.hero {
+  background-image: url(images/cupcake.jpg);
+  background-size: cover;
+  background-position: center;
+
+  
+}
+.obsah{
+  padding: 80px 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: row;
+}
+
+.banner {
+  color: whitesmoke;
+  flex-basis: 60%;
+  flex-grow: 0;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.banner p {
+  margin: 0;
+}
+
+.sloupec{
+  flex-basis: 50%;
+  flex-grow: 0;
+}
+.levy{
+  padding-right: 15px;
+}
+
+.pravy{
+  padding-left: 15px;
+}
+.sloupec img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: #f195b2;
+  padding: 15px 40px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 30px;
+  color:whitesmoke;
+  text-decoration: none;
+}
+
+.btn:active,
+.btn:hover{
+  background-color :  #d2567d;
+}
+.sedka{
+  background-color: #f0f0f0;
+}
+
+.nabidka{
+  flex-wrap: wrap;
+}
+.uvod_produkt{
+  flex-basis: 100%;
+}
+.produkty{
+  flex-basis: 100%;
+  padding:0 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.produkt img {
+  max-width: 100%;
+  border-radius:5px 5px 0 0;
+}
+.produkt{
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 7px #7d7e81;
+  font-size: 15px;
+}
+
+.produkt h3{
+  text-align: center;
+}
+.karticka {
+  padding:20px;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+footer{
+  background-color: #303339;
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px 0;
+}
+footer p {
+  margin:0;
+}
